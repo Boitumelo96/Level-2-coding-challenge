@@ -15,7 +15,7 @@ function triangle(n, mode = "left") {
         const hashes = "#".repeat(2 * i + 1);
         console.log(spaces + hashes);
       }
-    } else {  // default mode is "left"
+    } else {  
       for (let i = 0; i < n; i++) {
         const hashes = "#".repeat(i + 1);
         console.log(hashes);
@@ -24,10 +24,10 @@ function triangle(n, mode = "left") {
   }
   
   // Examples
-  triangle(3);  // default mode ("left")
+  triangle(3);  
   console.log();
   
-  triangle(3, "left");  // explicitly specifying "left" mode
+  triangle(3, "left");  
   console.log();
   
   triangle(3, "right");
