@@ -13,4 +13,4 @@ function columns(strings) {
 columns(["Write", "good", "code", "every", "day"]);
 
 
-module.exports = {columns};
+module.exports = {columns};   
