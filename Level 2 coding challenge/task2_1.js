@@ -5,6 +5,6 @@ function square(size, character = '#') {
             row += character;
         }
         console.log(row);
-    }
+    }   
 }
 module.exports = {square};
