@@ -23,22 +23,4 @@ function triangle(n, mode = "left") {
   }
 }
 
-// Examples
-triangle(3);  
-console.log();
-
-triangle(3, "left");  
-console.log();
-
-triangle(3, "right");
-console.log();
-
-triangle(3, "isosceles");
-console.log();
-
-try {
-  triangle(-3, "invalidMode");  
-} catch (error) {
-  console.error(error.message);
-}
 module.exports = {triangle};
